@@ -26,8 +26,8 @@
 
 		<!-- List of XML mapping files -->
 		<mapping resource="employee.hbm.xml" />
-		<mapping class="com.netmind.models.Department" />
-		<mapping class="com.netmind.models.Role" />
+		<mapping class="com.banana.models.Department" />
+		<mapping class="com.banana.models.Role" />
 
 	</session-factory>
 </hibernate-configuration>

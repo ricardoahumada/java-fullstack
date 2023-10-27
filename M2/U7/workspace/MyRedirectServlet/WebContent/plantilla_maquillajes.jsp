@@ -1,4 +1,4 @@
-<%@page import="com.netmind.models.Maquillaje"%>
+<%@page import="com.banana.models.Maquillaje"%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html lang="en">

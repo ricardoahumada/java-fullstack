@@ -4,7 +4,7 @@
  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="com.netmind.models.Employee" table="empleado">
+	<class name="com.banana.models.Employee" table="empleado">
 		<id name="id">
 			<generator class="identity"></generator>
 		</id>
@@ -12,11 +12,11 @@
 		<property name="firstName"></property>
 		<property name="lastName"></property>
 		<many-to-one name="departamento" cascade="all"
-			class="com.netmind.models.Department" column="departamento" unique="true" />
+			class="com.banana.models.Department" column="departamento" unique="true" />
 		
 		<set name="roles" table="rol_empleado" cascade="all">
             <key column="id" />
-            <many-to-many column="rid" unique="true" class="com.netmind.models.Role" />
+            <many-to-many column="rid" unique="true" class="com.banana.models.Role" />
         </set>
 
 	</class>

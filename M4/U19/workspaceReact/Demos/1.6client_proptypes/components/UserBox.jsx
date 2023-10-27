@@ -17,9 +17,9 @@ let titlePropType = (props, propName, componentName) => {
 const UserBox = React.createClass({
   loadUsers: function() {
     let data = [
-      {id: "1",name: "Ricardo",email: "ricardo@netmind.com"},
-      {id: "2",name: "Juan",email: "juan@netmind.com"},
-      {id: "3",name: "Roberto",email: "roberto@netmind.com"}
+      {id: "1",name: "Ricardo",email: "ricardo@banana.com"},
+      {id: "2",name: "Juan",email: "juan@banana.com"},
+      {id: "3",name: "Roberto",email: "roberto@banana.com"}
     ];
 
     this.setState({data: data});

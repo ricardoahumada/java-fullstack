@@ -10,7 +10,7 @@ import javax.naming.NamingException;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 import com.ncm.util.PropertyValues;
 
-public abstract class TestNetmind {
+public abstract class Testbanana {
 	private static Logger logger = Logger.getLogger("TestHumo");
 	private static Properties properties = null;
 	

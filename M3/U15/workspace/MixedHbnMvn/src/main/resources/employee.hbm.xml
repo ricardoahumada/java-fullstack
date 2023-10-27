@@ -4,7 +4,7 @@
  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="com.netmind.models.Employee" table="employees">
+	<class name="com.banana.models.Employee" table="employees">
 		<id name="id">
 			<generator class="identity"></generator>
 		</id>

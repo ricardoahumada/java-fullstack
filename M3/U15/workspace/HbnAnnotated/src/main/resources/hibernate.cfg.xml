@@ -23,7 +23,7 @@
 		</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		
-		<mapping class="com.netmind.models.Employee"/>  
+		<mapping class="com.banana.models.Employee"/>  
 
 	</session-factory>
 </hibernate-configuration>

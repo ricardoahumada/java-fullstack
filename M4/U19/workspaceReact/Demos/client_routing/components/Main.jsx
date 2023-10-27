@@ -4,9 +4,9 @@ import {Link} from 'react-router';
 const Main = React.createClass({
 	getInitialState: function() {
 		let data = [
-	      {id: "1",name: "Ricardo",email: "ricardo@netmind.com"},
-	      {id: "2",name: "Juan",email: "juan@netmind.com"},
-	      {id: "3",name: "Roberto",email: "roberto@netmind.com"}
+	      {id: "1",name: "Ricardo",email: "ricardo@banana.com"},
+	      {id: "2",name: "Juan",email: "juan@banana.com"},
+	      {id: "3",name: "Roberto",email: "roberto@banana.com"}
 	    ];
 		return {data: data};
 	},

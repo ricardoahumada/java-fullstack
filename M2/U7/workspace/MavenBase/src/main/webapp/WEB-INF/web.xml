@@ -7,7 +7,7 @@
 		<servlet-name>Hello</servlet-name>
 		<display-name>Hello</display-name>
 		<description></description>
-		<servlet-class>com.netmind.servlet.Hello</servlet-class>
+		<servlet-class>com.banana.servlet.Hello</servlet-class>
 	  </servlet>
 	  <servlet-mapping>
 		<servlet-name>Hello</servlet-name>

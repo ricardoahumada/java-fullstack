@@ -12,7 +12,7 @@ import com.ncm.DAO.ClienteDAO;
 import com.ncm.DAO.DAOFactory;
 import com.ncm.modelos.Cliente;
 
-public class TestClienteDAO extends TestNetmind {
+public class TestClienteDAO extends Testbanana {
 	private static Logger logger = Logger.getLogger("TestClienteDAO");
 
 	@BeforeClass
